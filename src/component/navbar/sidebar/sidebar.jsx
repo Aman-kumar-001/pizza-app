@@ -15,6 +15,7 @@ const Sidebar = ({open , onclose}) => {
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Order</a></li>
                 <li><a href="#">Balance</a></li>
+               
             </ul>
         </div>
         </div>
