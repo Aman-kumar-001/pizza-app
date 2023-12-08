@@ -1,14 +1,18 @@
 import React, {useState} from "react";
-// import "../navbar/navbar.css";
-// import { IoMenu } from "react-icons/io5";
+import "../navbar/navbar.css";
+import { IoMenu } from "react-icons/io5";
+import  Sidebar from "../navbar/sidebar/sidebar";
 
-
-function navbar(){
+function Navbar(){
+    const [ count, setCount ] = useState(false);
+    console.log(count);
 return(
+
     <div className="header">
-        hello
-   {/* <IoMenu/> */}
+        <div className="leftNav">TATA MOTORS</div>
+        <div className="rightNav"><IoMenu className="svg" onClick={() =>setCount((prev)=> !prev) }/></div> 
+        <Sidebar open={count} onClick={() => setCount(false)}/>
     </div>
 )
 }
-export default navbar;
+export default Navbar;
