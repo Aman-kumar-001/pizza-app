@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 75%;
+    display: flex;
+    overflow: hidden;
+   margin: 0 auto;
+}
+.slider{
+    width: 100%;
+}
+.arrow1{
+    align-items: center;
+    display: flex;
+   
+}
+.Arr{
+    border: black;
+    /* background-color: burlywood; */
+    font-size: 30px;
+    color: #FD9D3E;
+}
+.arrow2{
+    align-items: center;
+    display: flex;
+}

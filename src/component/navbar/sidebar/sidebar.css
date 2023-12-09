@@ -6,24 +6,28 @@
 .sidebar{
     margin-top:-2vh;
     position: fixed;
-    border: 2px solid grey;
+    /* border: 2px solid grey; */
     width: 250px;
     transform: translateX(220px);
     height: 400px;
-    background-color: grey;
+    background-color:#121619;
 }
 .sidebarHead{
     display: flex;
     padding-top: 25px;
 }
 .sidecontent{
+    margin-top: 30px;
     
 }
 .sidecontent ul li{
+
 list-style: none;
-margin-top: 10px;
+padding-top: 10px;
+border: 1px solid grey;
+font-size: 20px;
 }
 .sidecontent ul li a{
     text-decoration: none;
-   
+    color:#FD9D3E;
 }

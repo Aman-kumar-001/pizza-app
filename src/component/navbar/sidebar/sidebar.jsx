@@ -8,13 +8,14 @@ const Sidebar = ({open , onclose}) => {
         <div className="sidebarHead">
            
            <AiOutlineClose  onClick={onclose}/>
-           <p>My Site</p>
+          
         </div>
         <div className="sidecontent">
             <ul>
                 <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
                 <li><a href="#">Order</a></li>
-                <li><a href="#">Balance</a></li>
+                <li><a href="#">Contact</a></li>
                
             </ul>
         </div>

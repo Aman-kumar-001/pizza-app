@@ -9,7 +9,7 @@ function Navbar(){
 return(
      
     <div className="header">
-        <div className="leftNav">TATA MOTORS</div>
+        <div className="leftNav">PizzaOn</div>
         <div className="rightNav"><IoMenu className="svg" onClick={() =>setCount((prev)=> !prev) }/>
         <Sidebar open={count} onclose={() => setCount(false)}/>
         </div> 
