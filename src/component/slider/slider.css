@@ -4,26 +4,73 @@
     box-sizing: border-box;
 }
 .container{
-    width: 75%;
+    width: 100%;
     display: flex;
     overflow: hidden;
    margin: 0 auto;
+   justify-content: center;
+   align-items: center;
+   
 }
 .slider{
     width: 100%;
+    
 }
 .arrow1{
     align-items: center;
     display: flex;
-   
+   /* z-index: 1; */
 }
+.img-container{
+    display: flex;
+    
+}
+.slide{
+    display: flex;
+    flex-direction: column;
+}
+
 .Arr{
-    border: black;
+    /* border: black; */
     /* background-color: burlywood; */
     font-size: 30px;
     color: #FD9D3E;
+    z-index: 1;
 }
 .arrow2{
     align-items: center;
     display: flex;
 }
+.slider {
+    width: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  .container {
+    position: relative;
+    width: 80%;
+  }
+  
+  .wrappers {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Add transition for smooth sliding effect */
+  }
+  
+  .slide {
+    flex: 0 0 100%; /* Adjust the width of each slide (image) */
+    margin-right: ; /* Adjust the overlap between slides */
+  }
+  
+  .img-container {
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .img-container img {
+    width: 500px;
+    height: 500px;
+    display: block;
+  }
