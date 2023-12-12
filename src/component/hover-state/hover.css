@@ -1,5 +1,75 @@
-*{
+* {
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
+}
+
+.Hover-box {
+    height: 500px;
+    width: 100%;
+    padding: 50px;
+}
+
+.text {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.Hover1 {
+    padding-right: 120px;
+}
+
+.imgtag:hover {
+    /* height: 325px; */
+    /* border: 2px solid #FD9D3E; */
+      border: 2px solid black;
+    border-radius: 15%;
+}
+
+.Hover2 {
+    padding-right: 120px;
+}
+
+.Hover3 {
+    /* padding-: 20px; */
+}
+
+img {
+    height: 300px;
+}
+
+.but {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#butt {
+    font-size: 30px;
+    border-radius: 15%;
+    border: 2px solid white;
+    background-color: #FD9D3E;
+    padding: 5px;
+}
+
+#butt:hover {
+    border: 3px solid black;
 }
