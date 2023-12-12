@@ -12,21 +12,23 @@ function Slider() {
       key:'2',
       img: "https://i.imgur.com/UYOyrA3.png"
     },
-    // {
-    //   key:'3',
-    //   img: "https://i.imgur.com/hN3q1kn.png"
-    // }
+    {
+      key:'3',
+      img: "https://i.imgur.com/hN3q1kn.png"
+    }
   ];
 
   const [slider, setSlider] = useState(0);
+  const slideWidth = 100 / sliderItems.length;
+
 
   const prevslider = () => {
-    setSlider(slider === 0 ? 2 : (prev) => prev - 1);
+    setSlider(slider === 0 ? sliderItems.length-1 : (prev) => prev - 1);
     console.log("prev");
   };
 
   const nextslider = () => {
-    setSlider(slider === 2 ? 0 : (prev) => prev + 1);
+    setSlider(slider === sliderItems.length-1 ? 0 : (prev) => prev + 1);
     console.log("next");
   };
 
@@ -38,7 +40,7 @@ function Slider() {
         </div>
         <div
           className="wrappers"
-          style={{ transform: `translateX(-${slider * 60}vw)` }}
+          style={{ transform: `translateX(-${slider * 100}%)` }}
         >
           {sliderItems.map((item) => (
             <div className="slide">

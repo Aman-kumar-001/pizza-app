@@ -1,76 +1,87 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.container{
-    width: 100%;
-    display: flex;
-    overflow: hidden;
-   margin: 0 auto;
-   justify-content: center;
-   align-items: center;
-   
-}
-.slider{
-    width: 100%;
-    
-}
-.arrow1{
-    align-items: center;
-    display: flex;
-   /* z-index: 1; */
-}
-.img-container{
-    display: flex;
-    
-}
-.slide{
-    display: flex;
-    flex-direction: column;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.Arr{
-    /* border: black; */
-    /* background-color: burlywood; */
-    font-size: 30px;
-    color: #FD9D3E;
-    z-index: 1;
+.container {
+  /* width: 60%; */
+  display: flex;
+  overflow: hidden;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 610px;
+
 }
-.arrow2{
-    align-items: center;
-    display: flex;
-}
+
 .slider {
-    width: 80%;
-    overflow: hidden;
-    margin: 0 auto;
-  }
-  
-  .container {
-    position: relative;
-    width: 80%;
-  }
-  
-  .wrappers {
-    display: flex;
-    transition: transform 0.5s ease-in-out; /* Add transition for smooth sliding effect */
-  }
-  
-  .slide {
-    flex: 0 0 100%; /* Adjust the width of each slide (image) */
-    margin-right: ; /* Adjust the overlap between slides */
-  }
-  
-  .img-container {
-    width: 100%;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .img-container img {
-    width: 500px;
-    height: 500px;
-    display: block;
-  }
+  width: 100%;
+  margin: 0 auto;
+  /* width: 1000px; */
+  overflow: hidden;
+  margin: 0 auto;
+  background-image: url(../../assests/330844-P9MZCI-697.jpg);
+  background-size: contain;
+}
+
+.arrow1 {
+  align-items: center;
+  display: flex;
+  /* z-index: 1; */
+}
+
+.img-container {
+  display: flex;
+  width: 80%;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 39px 30px;
+}
+
+.Arr {
+  /* border: black; */
+  /* background-color: burlywood; */
+  font-size: 50px;
+  color: #FD9D3E;
+  z-index: 1;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+}
+
+.arrow2 {
+  align-items: center;
+  display: flex;
+}
+
+.wrappers {
+  /* overflow: hidden; */
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  /* Add transition for smooth sliding effect */
+}
+
+.slide {
+  flex: 0 0 100%;
+  /* Adjust the width of each slide (image) */
+  margin-right: 2px;
+  /* Adjust the overlap between slides */
+}
+
+
+
+.img-container img {
+  width: 400px;
+  height: 500px;
+  display: block;
+  /* padding-left: 25px; */
+}

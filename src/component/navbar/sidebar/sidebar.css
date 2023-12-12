@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 .sidebar{
-    margin-top:-2vh;
+    margin-top:-6vh;
     position: fixed;
     /* border: 2px solid grey; */
     width: 250px;
     transform: translateX(220px);
-    height: 400px;
+    height: 588px;
     background-color:#121619;
 }
 .sidebarHead{

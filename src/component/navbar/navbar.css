@@ -5,7 +5,7 @@
 }
 
 .header{
-    height: 5vh;
+    height: 9vh;
     background-color:#121619;
     display: flex;
     align-items: center;
@@ -16,7 +16,7 @@
     position: relative;
     width: 50%;
     left: 5%;
-    font-size: 20px;
+    font-size: 40px;
 }
 .rightNav{
     position: relative;
