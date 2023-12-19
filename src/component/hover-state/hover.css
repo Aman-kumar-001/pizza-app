@@ -8,6 +8,7 @@
     height: 500px;
     width: 100%;
     padding: 50px;
+    /* padding-bottom: 50px; */
 }
 
 .text {
@@ -51,7 +52,7 @@ h1 {
     /* padding-: 20px; */
 }
 
-img {
+.imgtag{
     height: 300px;
 }
 
