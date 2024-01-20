@@ -7,7 +7,7 @@ function Hover() {
   return (
     <div className="Hover-box">
       <div className="text">
-        <h3>Fresh from pizzon </h3>
+        <h3 className="H3">Fresh from pizzon </h3>
         <h1>OUR SPECIALITY</h1>
       </div>
       <div className="items">

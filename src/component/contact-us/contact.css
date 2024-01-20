@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contactBox{
+    background-color: #FFFFFF;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+    margin: 0 auto;
+    height: fit-content;
+    margin-bottom: 15px;
+}
+.contactleft{
+    width: 50%; 
+    align-items: center;
+     justify-content: center;
+     display: grid;
+}
+.H3tag{
+    color: #FD9D3E;
+    font-size: 30px;
+    /* padding-bottom: 10px; */
+}
+.H1tag{
+    font-size: 60px;
+    /* padding-bottom: 12px; */
+}
+
+.ptag{
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+.number-button{
+    /* font-size: 20px; */
+    background-color: #FD9D3E;
+    color: black;
+    padding: 10px;
+    border-radius: 5%;
+    width: fit-content;
+}
+.number-button:hover{
+   background-color: #FFFFFF;
+}
+.contactRight{
+    width: 50%; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; 
+    display: flex;
+}
+.input-box input{
+    display: flex;
+    margin-top: 10px;
+    padding: 5px; 
+    font-size: 20px;
+    border-radius: 10px;
+}
+input:hover{
+    border-color: #FD9D3E;
+}
+.bookNow{
+    margin-top: 15px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: #FD9D3E;
+}
+.bookNow:hover{
+    background-color: #FFFFFF;
+}
+.h3tag-book{
+    font-size: 40px;
+}
