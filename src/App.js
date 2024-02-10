@@ -6,6 +6,7 @@ import Hover from './component/hover-state/hover';
 import Item from './component/item-list/items';
 import Contact from './component/contact-us/contact';
 import Emplyoes from './component/cheffs-section/cheffs';
+import Footer from './component/footer/footer';
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
     <Item/>
     <Contact />
     <Emplyoes/>
+    <Footer/>
     </>
   );
 }

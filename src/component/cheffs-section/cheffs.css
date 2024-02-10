@@ -1,9 +1,92 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.box{
-    height: 400px;
-    background-color: red;
+
+#container {
+    /* width: 60%; */
+    display: flex;
+    overflow: hidden;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 610px;
+    
+
+}
+#h2{
+    color: #FD9D3E;
+    font-size: 40px;
+}
+#h1{
+    color: #FD9D3E;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#slider {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin: 0 auto;
+    background-size: contain;
+    background-image: url(../../assests/pngwing.com.png);
+    background-color: #121619;
+}
+
+#arrow1 {
+    align-items: center;
+    display: flex;
+}
+
+#img-container {
+    display: flex;
+    width: 80%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#slide {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 39px 30px;
+}
+
+#Arr {
+    font-size: 50px;
+    color: #FD9D3E;
+    z-index: 1;
+}
+
+#arrow2 {
+    align-items: center;
+    display: flex;
+}
+
+#wrappers {
+
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+#slide {
+    flex: 0 0 100%;
+
+    margin-right: 2px;
+
+}
+
+
+
+#img-container img {
+    width: 400px;
+    height: 500px;
+    display: block;
+    /* padding-left: 25px; */
 }

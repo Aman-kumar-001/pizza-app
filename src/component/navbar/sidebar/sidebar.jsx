@@ -12,13 +12,13 @@ const Sidebar = ({open , onclose}) => {
         </div>
         <div className="sidecontent">
             <ul>
-                <li><a href="#">SignIN/LogIN</a></li>
+                <li><a href="#">Profile</a></li>
                 <li><a href="#">Menu</a></li>
-                <li><a href="#">Order</a></li>
+                <li><a href="#">Cart</a></li>
                 <li><a href="#">Contact</a></li>
                 {/* <li><a href="#"></a></li> */}
                 
-                <button>log out</button>
+                <button id="sidebar-button">log out</button>
             </ul>
         </div>
         </div>

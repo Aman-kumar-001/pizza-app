@@ -12,6 +12,9 @@
     height: 588px;
     background-color:#121619;
 }
+#sidebar-button{
+    font-size: 17px;
+}
 .sidebarHead{
     display: flex;
     padding-top: 25px;
