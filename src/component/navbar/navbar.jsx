@@ -10,9 +10,9 @@ return(
      
     <div className="header">
         <div className="leftNav">PizzaOn</div>
-        <div className="rightNav"><IoMenu className="svg" onClick={() =>setCount((prev)=> !prev) }/>
+        {/* <div className="rightNav"><IoMenu className="svg" onClick={() =>setCount((prev)=> !prev) }/>
         <Sidebar open={count} onclose={() => setCount(false)}/>
-        </div> 
+        </div>  */}
        
     </div>
     
