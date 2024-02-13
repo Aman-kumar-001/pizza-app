@@ -22,8 +22,8 @@
   /* width: 1000px; */
   overflow: hidden;
   margin: 0 auto;
-  background-image: url(../../assests/330844-P9MZCI-697.jpg);
-  background-size: contain;
+  background-image: url(../../assests/—Pngtree—cartoon\ black\ food\ poster\ background_1035986.jpg);
+  background-size:cover;
 }
 
 .arrow1 {
@@ -48,12 +48,10 @@
 }
 
 .Arr {
-  /* border: black; */
-  /* background-color: burlywood; */
   font-size: 50px;
   color: #FD9D3E;
   z-index: 1;
-  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  
 }
 
 .arrow2 {

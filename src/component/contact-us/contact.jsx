@@ -23,6 +23,7 @@ const response = await fetch('http://localhost:8080/demo',{
   })
   const data = await response.json();
 console.log(data)
+alert( "your booking has done");
 }
 
 

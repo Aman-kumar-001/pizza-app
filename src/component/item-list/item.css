@@ -40,6 +40,9 @@
     align-items: center;
     display: grid;
 }
+h6{
+  font-size: 17px;
+}
 .item-list{
     height: 200px;
     width: 200px;

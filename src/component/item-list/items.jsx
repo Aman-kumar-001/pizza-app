@@ -25,8 +25,8 @@ function Item() {
       <div>
         <div className="item-container">
           <div className="item">
-            <img src={IMG} className="item-list"></img> //curElem.url
-            <h6>MEAT SALAD</h6>
+            <img src={IMG} className="item-list"></img>
+            <h6>RS. 169/</h6>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
               minus ducimus voluptas ad id laborum.
@@ -34,7 +34,7 @@ function Item() {
           </div>
           <div className="item">
             <img src={IMG1} className="item-list"></img>
-            <h6>MEAT SALAD</h6>
+            <h6>RS. 169/</h6>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
               minus ducimus voluptas ad id laborum.
@@ -42,7 +42,7 @@ function Item() {
           </div>
           <div className="item">
             <img src={IMG2} className="item-list"></img>
-            <h6>MEAT SALAD</h6>
+            <h6>RS. 169/</h6>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
               minus ducimus voluptas ad id laborum.
@@ -50,7 +50,7 @@ function Item() {
           </div>
           <div className="item">
             <img src={IMG1} className="item-list"></img>
-            <h6>MEAT SALAD</h6>
+            <h6>RS. 169/</h6>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
               minus ducimus voluptas ad id laborum.
@@ -59,7 +59,7 @@ function Item() {
 
           <div className="item">
             <img src={IMG} className="item-list"></img>
-            <h6>MEAT SALAD</h6>
+            <h6>RS. 169/</h6>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
               minus ducimus voluptas ad id laborum.
@@ -67,7 +67,7 @@ function Item() {
           </div>
           <div className="item">
             <img src={IMG2} className="item-list"></img>
-            <h6>MEAT SALAD</h6>
+            <h6>RS. 169/</h6>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
               minus ducimus voluptas ad id laborum.
