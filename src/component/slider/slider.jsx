@@ -59,3 +59,5 @@ function Slider() {
 }
 
 export default Slider;
+
+//this is the slider window
